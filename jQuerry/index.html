@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>Chaisaw Man</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div><h1>Lista de Nomes</h1></div>
+ <div>
+    <ul style="font-size: 35px;">
+        <li class="d">Denji</li>
+        <li class="p">Pochita</li>
+        <li class="m">Makima</li>
+        <li class="a">Aki</li>
+        <li class="o">Power</li>
+    </ul>
+ </div>
+ <div>
+    <button id="btn">Clique aqui!</button>
+    <script>
+       // $('h1').fadeOut("2000") //SAIR DA TELA POR 2 SEGUNDOS
+     //  $('h1').fadeOut("2000").fadeIn("2000")
+    // $('li').remove() // REMOVER LI
+    //$('h1').append(" de pessoas")// INSERIR INFORMAÇÕES
+    // $('#btn').on("click", botao)
+    // function botao(){
+    //     $('h1').remove()
+    // }
+    $('#btn').on("click", botao)
+    function botao(){
+        $('.d').css({'color':'yellow'})
+        $('#btn').on("click", botao)
+    function botao(){
+        $('.p').css({'color':'orange'})
+    
+        $('#btn').on("click", botao)
+    function botao(){
+        $('.m').css({'color':'red'})
+    
+    $('#btn').on("click", botao)
+    function botao(){
+        $('.a').css({'color':'blue'})
+        $('#btn').on("click", botao)
+    function botao(){
+        $('.o').css({'color':'pink'})
+    }
+}
+    }
+}
+    }
+    </script>
+ </div>
+</body>
+</html>
